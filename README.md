@@ -23,6 +23,7 @@ Possibilites and challenges
 # LLM Leaderboard
 * Compares open-source models of varying parameter counts 7-180 billion and beyond
 * Uses standard tests and compares their scores (ARC, HellaSwag, MMLU etc..)
+<img width="903" alt="Screenshot 2023-11-30 at 1 49 15 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/48495082-d308-4502-b2a5-02184b3a711b">
 
 https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
@@ -48,12 +49,34 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
     9. **Mathematical Problem Solving**
     10. **Philosophical and Ethical Questions**
 
+* Bad Example 1: Math
+  <img width="905" alt="Screenshot 2023-11-30 at 1 53 42 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/aaee3892-8424-434c-b250-56f48af0bd87">
+  <img width="474" alt="Screenshot 2023-11-30 at 1 54 35 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/a160135e-d882-4a34-b352-36498ca39d83">
+
+
+* Bad Example 2: Logical
+  <img width="1046" alt="Screenshot 2023-11-30 at 1 56 12 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/342167e9-2940-46ad-bc76-48fe485b793f">
+  <img width="412" alt="Screenshot 2023-11-30 at 1 55 49 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/d0680c7b-e9eb-4a61-87b0-cfe0c976b9f6">
+
+* Bad Example 3: Logical
+  <img width="1182" alt="Screenshot 2023-11-30 at 1 57 15 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/b5f7117b-e004-4aaa-9dd4-e1d05a305b82">
+  <img width="864" alt="Screenshot 2023-11-30 at 1 57 01 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/16730dc1-04ae-4ddc-a256-dc9bb84f2425">
+
+* Similar Example 1: Sentence Completion
+  <img width="610" alt="Screenshot 2023-11-30 at 2 00 28 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/bac86ca0-155f-4f99-9d61-0a4435892e4e">
+  <img width="674" alt="Screenshot 2023-11-30 at 2 01 14 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/00c142ed-bfb9-4069-a7fe-bd7934c4440a">
+
+* Similar Example 2: Helper
+  <img width="1101" alt="Screenshot 2023-11-30 at 2 23 56 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/9f788cae-9148-408f-aa5b-ebde2e228458">
+ <img width="690" alt="Screenshot 2023-11-30 at 2 24 43 PM" src="https://github.com/lw2403/on-device-llm-privacy-analysis/assets/46736926/4851dbd7-8e69-4963-92c6-aeaaaa288acf">
+
+
 --- 
 
 # Analysis 
 
-* I'll record the answers and score each question in a big .csv file
-* I'll do some analysis of each test with pandas, matplotlib etc...
+* I've record the answers and score each question in a big .csv file
+* I'll do some analysis of each test with pandas, matplotlib etc to assess the accuracy, helpfulness, length, and create word clouds. 
 
 ---
 
