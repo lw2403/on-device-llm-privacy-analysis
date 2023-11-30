@@ -1,4 +1,4 @@
-# Privacy-first On-Device LLMs
+# Privacy-first On-Device LLMs Presentation
 
 Possibilites and challenges
 
@@ -32,7 +32,6 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 # My Testing Setup
 * Compare [Falcon 180B](https://huggingface.co/tiiuae/falcon-180B) (one of the most sophisticated open-source LLMs, comparable to GPT-3.5 but a little worse than GPT-4) available with GPU inference on [HuggingFace Chat](https://huggingface.co/chat/) to
 * [Falcon 7B](https://huggingface.co/tiiuae/falcon-7b) available for offline, privacy friendly local chat on my laptop via [GPT4ALL](https://gpt4all.io/index.html)
-* https://github.com/nomic-ai/gpt4all
 
 ---
 
