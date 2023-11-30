@@ -84,5 +84,5 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 
 * I'm using a pre-pruned 7B model created by TII
 * I'm using GPT4ALL to run inference on my laptop
-* I could get access to an A100 or better GPU from Brown and prune and train my own model with Pytorch or Tensorflow
+* I could get access to an A100 or better GPU and prune and train my own model with Pytorch or Tensorflow
 * I could also write my own inference code for these models, to better guarantee privacy because while GPT4ALL is open source it could theoretically still be sending my private info to the UAE or something 
