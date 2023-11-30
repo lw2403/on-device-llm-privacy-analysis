@@ -76,11 +76,11 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 # Analysis 
 
 * I've record the answers and score each question in a big .csv file
-* I'll do some analysis of each test with pandas, matplotlib etc to assess the accuracy, helpfulness, length, and create word clouds. 
+* I've done analysis of each test with pandas, matplotlib etc to assess the accuracy, helpfulness, length, word clouds etc. 
 
 ---
 
-# My Own Pruning (Future Consideration)
+# My Own Pruning (Consideration)
 
 * I'm using a pre-pruned 7B model created by TII
 * I'm using GPT4ALL to run inference on my laptop
