@@ -1,0 +1,11 @@
+Category,Accuracy Score 180B Falcon,Accuracy Score On-Device Falcon,Helpfulness Score 180B Falcon,Helpfulness Score On-Device Falcon,Length 180B Falcon,Length On-Device Falcon
+Common Helper Questions,4.6,4.4,4.6,4.3,274.7,242.6
+Creative Writing and Storytelling,4.9,4.7,4.7,4.3,285.1,155.9
+Current Events and Information Retrieval,3.6,2.9,3.8,2.1,117.1,42.2
+Logical Reasoning Questions,4.2,2.0,3.6,1.5,26.0,36.0
+Mathematical Problem Solving,4.8,3.2,4.5,3.3,55.8,57.7
+Personal Questions,4.5,4.5,4.1,4.1,190.3,184.6
+Philosophical and Ethical Questions,4.8,4.6,4.7,3.7,155.0,62.5
+Programming and Code Generation,5.0,5.0,5.0,3.7,195.7,56.9
+Text Completion and Comprehension,5.0,5.0,4.7,4.8,25.1,20.5
+Translation and Language Proficiency,5.0,4.8,5.0,4.1,4.3,3.3

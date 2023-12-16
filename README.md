@@ -1,6 +1,4 @@
-# Privacy-first On-Device LLMs Presentation
-
-Possibilites and challenges
+# Privacy-first On-Device LLMs 
 
 ---
 
@@ -86,3 +84,77 @@ https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard
 * I'm using GPT4ALL to run inference on my laptop
 * I could get access to an A100 or better GPU and prune and train my own model with Pytorch or Tensorflow
 * I could also write my own inference code for these models, to better guarantee privacy because while GPT4ALL is open source it could theoretically still be sending my private info to the UAE or something 
+
+
+# Python Virtual Environment Setup Guide
+
+Follow these steps to create a new virtual environment, activate it, and install packages from a `requirements.txt` file.
+
+## Step 1: Create a New Virtual Environment
+
+First, you need to create a virtual environment. Replace `env_name` with the desired name for your virtual environment.
+
+### For Windows or Mac:
+
+```bash
+python -m venv env_name
+or
+python3 -m venv env_name
+```
+
+## Step 2: Activate the Virtual Environment
+After creating the environment, you need to activate it.
+
+```bash
+For Windows:
+
+env_name\Scripts\activate
+
+For macOS and Linux:
+
+source env_name/bin/activate
+```
+You should now see (env_name) before your command prompt, indicating that the virtual environment is active.
+
+## Step 3: Install Packages from requirements.txt
+Ensure that you have a requirements.txt file in your current directory. 
+This file should contain the list of packages to install.
+Run the following command to install all the packages listed in requirements.txt:
+
+```bash
+pip install -r requirements.txt
+```
+After running the above command, 
+all the packages and their respective versions should be installed in your virtual environment.
+
+## Step 4: Python Scripts
+
+python python_scripts.py
+
+### Summary of Python Analysis Scripts
+
+#### analysis_Low_Accuracy_Summary.py
+This script identifies and extracts records where the Accuracy Score is less than 3, saving the results to a dedicated file `Low_Accuracy_Summary.csv`.
+
+#### score_filter.py
+The purpose of this script is to process and filter out entries with low scores. It outputs several files including `score_eq_1.csv`, `score_le_2.csv`, and `score_le_3.csv`, each containing data corresponding to the filter criteria.
+
+#### fill_with_word_count.py
+This script populates two columns, `Length 180B Falcon` and `180B Falcon Response`, with appropriate data. It produces an output file named `On-Device-score_with_fill_Length.csv`.
+
+#### analysis_score_mean.py
+Designed to compute the average scores, this script then saves the computed summary to the file `Category_Scores_Summary.csv`.
+
+#### analysis_word_graph.py
+A script for tallying high-frequency vocabulary in the results. It generates images like:
+![Common Helper Questions_180B Falcon Response_180B Falcon.png](word_graph/Common Helper Questions_180B Falcon Response_180B Falcon.png)
+All visualizations are stored in the `word_graph` directory.
+
+#### analysis_accuracy_score_sum_diff.py
+This analysis tool generates a visual representation of the variations in Accuracy Scores, saved as `analysis_accuracy_score_sum_diff.png`.
+
+#### analysis_helpfulness_score_sum_diff.py
+With a focus on evaluating differences in Helpfulness Scores, this script outputs its findings in an image file named `analysis_helpfulness_score_sum_diff.png`.
+
+#### analysis_word_count_diff.py
+The script is tasked with examining the discrepancies in Answer Word Counts and visualizing the results in `analysis_word_count_diff.png`.
