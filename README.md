@@ -75,6 +75,10 @@ With a focus on evaluating differences in Helpfulness Scores, this script output
 #### analysis_word_count_diff.py
 The script is tasked with examining the discrepancies in Answer Word Counts and visualizing the results in `analysis_word_count_diff.png`.
 
+---
+# Project Summary
+---
+
 # The problem
 
 * LLMs are great BUT
